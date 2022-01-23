@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(47, 51, 49);
+    color: #008f11;
+    height: 100%;
+}
+
+.inner-container{
+    padding: 1rem;
+}
+
+.content{
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+}
+
+label, input{
+    display: block;
+}
+
+label{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Input Field */
+.flex-input{
+    display: flex;
+    justify-content: center;
+}
+
+svg{
+    fill: #008f11;
+    margin-left: 1rem;
+}
+
+input{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    border: none;
+    border-bottom: 2px solid #008f11;
+    background-color: rgb(47, 51, 49);
+    width: 10rem;
+    max-width: 20rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+/* boxes */
+.flex{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+
+.logo-box{
+    background-color: #008f11;
+    box-shadow: 3px 3px 5px #011f04;
+    width: 9.2rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+.logo-box img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.current-temp-box{
+    display: flex;
+    background-color: #008f11;
+    box-shadow: 3px 3px 5px #011f04;
+    width: 9.2rem;
+    max-width: 11rem;
+    height: 5rem;
+    color: white;
+    margin-top: 1rem;
+    word-wrap: break-word;
+}
+
+.current-temp-box p{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    margin: 0rem;
+    margin-top: 2.0rem;
+}
+
+.current-temp-box p:first-of-type{
+    margin-left: 0.8rem;
+}
+
+.celcius{
+    position: relative;
+    left: -0.6rem;
+}
+
+/* footer */
+footer{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:25px;   /* Height of the footer */
+   font-size: 0.6rem;
+}
