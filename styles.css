@@ -88,6 +88,7 @@ button{
 
 .current-temp-box{
     display: flex;
+    justify-content: center;
     background-color: #008f11;
     box-shadow: 3px 3px 5px #011f04;
     width: 9.2rem;
@@ -100,8 +101,7 @@ button{
 
 .current-temp-box p{
     text-align: center;
-    margin-top: 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0rem;
     margin-top: 2.0rem;
 }
@@ -112,7 +112,7 @@ button{
 
 .celcius{
     position: relative;
-    left: -0.6rem;
+    left: -0.4rem;
 }
 
 /* footer */
